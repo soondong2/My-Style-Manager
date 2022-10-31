@@ -43,8 +43,8 @@ Input으로 입력된 의류 이미지를 모델을 학습시킨 이미지와 �
 <br>
 
 ## 결과
-<img width="60%" src="https://user-images.githubusercontent.com/100760303/198918755-fa121b68-4f3c-4dfa-803b-3b2e1584e1d4.png"/>
-<img width="60%" src="https://user-images.githubusercontent.com/100760303/198918798-9a7d4a5a-e9f8-4d8a-a88b-553ad8873c19.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/100760303/198918755-fa121b68-4f3c-4dfa-803b-3b2e1584e1d4.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/100760303/198918798-9a7d4a5a-e9f8-4d8a-a88b-553ad8873c19.png"/>
 
 <br>
 
