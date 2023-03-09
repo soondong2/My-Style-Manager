@@ -1,52 +1,19 @@
-# Passion King Project
+# My Style Manager
 
-![캡처](https://user-images.githubusercontent.com/100760303/198916924-dc6855ed-331a-4d86-bd60-6bf57ff47fb1.PNG)
-
-<br>
-
-## 서비스 내용
-> ***“오늘은 어떤 옷을 입어야 하지?”***
-
-고민하는 사람들을 위한 쉽고 간편한 코디 추천 모델 **My Style Manager**입니다.
-
-위 서비스를 통해 기대하는 바는 다음과 같습니다.
-
-1) 준비 시간 단축
-
-2) 유사 제품 구매 가능
-
-3) 패션 자신감 향상
-
-위 서비스를 사용하는 방법은 다음과 같습니다.
-
-- 상의 또는 하의 의류 사진을 촬영합니다.
-- 촬영한 사진을 업로드시 유사한 코디 스타일을 추천해줍니다.
-
-<br>
-
-## Data Source
-![캡처2](https://user-images.githubusercontent.com/100760303/198917890-3f67fb93-82b7-41be-bae0-cabc4739c1a4.PNG)
-
-<br>
-
-## 기술 내용
-### AutoEncoder & **Similarity Calculation**
-![Untitled](https://user-images.githubusercontent.com/100760303/198917354-c4592229-a013-40df-9931-d3b5462b2e95.png)
-<br>
-
-Encoder를 통해 데이터를 압축하여 의미 있는 Latent Feature들을 뽑아내고 Decoder를 통해 이미지를 다시 복원시킵니다. Latent Feature들을 이용해 Cosine Similarity, Euclidean Distance, Pearson Similarity 등 유사도를 구하고 가장 성능이 뛰어난 유사도를 사용해 Input 이미지와 유사한 패션 착용 이미지 Top 10을 추천합니다.
-<br>
-
-### OpenCV
-Input으로 입력된 의류 이미지를 모델을 학습시킨 이미지와 같은 환경으로 만들어주기 위해 이미지에서 배경을 하얗게 만들고 의류만을 객체로 인식할 수 있도록 하였습니다.
-
-<br>
-
-## 결과
-<img width="80%" src="https://user-images.githubusercontent.com/100760303/198918755-fa121b68-4f3c-4dfa-803b-3b2e1584e1d4.png"/>
-<img width="80%" src="https://user-images.githubusercontent.com/100760303/198918798-9a7d4a5a-e9f8-4d8a-a88b-553ad8873c19.png"/>
-
-<br>
+![image](https://user-images.githubusercontent.com/100760303/223893382-0ae1a0ca-5582-487f-9709-6866021e1e4f.png)
+![image](https://user-images.githubusercontent.com/100760303/223893212-20a0e2ff-5a2f-4b17-8e43-18bf479564b5.png)
+![image](https://user-images.githubusercontent.com/100760303/223893245-d7d62db4-47a4-4ba0-86f4-ccbff49d3abe.png)
+![image](https://user-images.githubusercontent.com/100760303/223893454-f70ec699-f75b-47a7-9ade-c95f933203a4.png)
+![image](https://user-images.githubusercontent.com/100760303/223893535-d654347b-66b8-459e-800d-ac6e8160a1d9.png)
+![image](https://user-images.githubusercontent.com/100760303/223893699-fc47675a-3450-4957-a464-a63339244ffc.png)
+![image](https://user-images.githubusercontent.com/100760303/223893765-105bde24-a83b-4345-868a-da7dd0a3d0f0.png)
+![image](https://user-images.githubusercontent.com/100760303/223893816-f9ddfc17-f882-414b-bdd5-60df68c00523.png)
+![image](https://user-images.githubusercontent.com/100760303/223893862-7f8fa96f-7d9f-4013-8548-8b7ccfdeb1fe.png)
+![image](https://user-images.githubusercontent.com/100760303/223893916-66ea09b5-d896-4e79-8412-fe6fdbf30f83.png)
+![image](https://user-images.githubusercontent.com/100760303/223893947-5864c657-f9ca-400d-9508-de47011ca8f0.png)
+![image](https://user-images.githubusercontent.com/100760303/223894020-03c9b1b9-86af-41b6-9b13-0b42df16385e.png)
+![image](https://user-images.githubusercontent.com/100760303/223894091-4ec09c77-b66a-43c6-bd46-1e1360148982.png)
+![image](https://user-images.githubusercontent.com/100760303/223894194-e7cb1f9d-e179-456f-b214-d4e808bdf63f.png)
 
 ## Streamlit
 https://lion-hill-final-project-main-gyuho-h3kna3.streamlitapp.com/
